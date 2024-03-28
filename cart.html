@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="Vector/logo-tab.svg" type="image/x-icon" />
+    <title>Carla - Cart</title>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+    <link rel="stylesheet" href="1-style.css" />
+    <link rel="stylesheet" href="shop.css" />
+    <link rel="stylesheet" href="blog.css" />
+    <link rel="stylesheet" href="about.css" />
+    <link rel="stylesheet" href="cart.css" />
+  </head>
+  <body>
+    <section id="header">
+      <a href="#"><img src="Images/logo.png" alt="logo" class="logo" /></a>
+      <div>
+        <ul id="navbar">
+          <li><a href="1-home.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li id="bag-nvbr">
+            <a class="active" href="cart.html">
+              <img src="Vector/bag-shopping-svgrepo-com.svg" />
+            </a>
+          </li>
+          <a href="#" id="close"><i class="far fa-times"></i></a>
+        </ul>
+        <div id="mobile">
+          <a href="cart.html">
+            <img src="Vector/bag-shopping-svgrepo-com.svg" />
+          </a>
+          <i id="bar" class="fas fa-outdent"></i>
+        </div>
+      </div>
+    </section>
+
+    <section id="page-headder" class="about-heder">
+      <h2>#cart</h2>
+      <p>Add your coupon code & SAVE up to 70%!</p>
+    </section>
+
+    <section id="cart" class="section-p1">
+      <table width="100%">
+        <thead>
+          <tr>
+            <td>Remove</td>
+            <td>Image</td>
+            <td>Product</td>
+            <td>Price</td>
+            <td>Quantity</td>
+            <td>Subtotal</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <a href=""><i class="far fa-times-circle"></i></a>
+            </td>
+            <td><img src="Products/f1.jpg" /></td>
+            <td>Cartoon Astronut T-Shirt</td>
+            <td>$118.23</td>
+            <td><input type="number" value="1" /></td>
+            <td>$118.23</td>
+          </tr>
+          <tr>
+            <td>
+              <a href=""><i class="far fa-times-circle"></i></a>
+            </td>
+            <td><img src="Products/f2.jpg" /></td>
+            <td>Cartoon Astronut T-Shirt</td>
+            <td>$118.23</td>
+            <td><input type="number" value="1" /></td>
+            <td>$118.23</td>
+          </tr>
+          <tr>
+            <td>
+              <a href=""><i class="far fa-times-circle"></i></a>
+            </td>
+            <td><img src="Products/f3.jpg" /></td>
+            <td>Cartoon Astronut T-Shirt</td>
+            <td>$118.23</td>
+            <td><input type="number" value="1" /></td>
+            <td>$118.23</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+      <div id="coupon">
+        <h3>Apply Coupon</h3>
+        <div>
+          <input type="text" placeholder="Enter Your Coupon" />
+          <button class="normal">Apply</button>
+        </div>
+      </div>
+
+      <div id="subtotal">
+        <h3>Cart Total</h3>
+        <table>
+          <tr>
+            <td>Cart Subtotal</td>
+            <td>$335.05</td>
+          </tr>
+          <tr>
+            <td>Shipping</td>
+            <td>Free</td>
+          </tr>
+          <tr>
+            <td><strong>Total</strong></td>
+            <td><strong>$335.05</strong></td>
+          </tr>
+        </table>
+        <button class="normal">Proceed to checkout</button>
+      </div>
+    </section>
+
+    <footer class="section-p1">
+      <div class="col">
+        <img src="Images/logo.png" class="logo" />
+        <h4>Contact</h4>
+        <p><strong>Address:</strong> adress adress adress, USA</p>
+        <p><strong>Phone:</strong> +01 2222 365/(+91) 01 2345 6789</p>
+        <p><strong>Hours:</strong> 10:00 - 10:00 / Mon - Sat</p>
+        <div class="follow">
+          <h4>Follow Us</h4>
+          <div class="icon">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-pinterest-p"></i>
+            <i class="fab fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <h4>About</h4>
+        <a href="#">About Us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">contact Us</a>
+      </div>
+
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sing In</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wish List</a>
+        <a href="#">Track my orders</a>
+        <a href="#">Helps</a>
+      </div>
+
+      <div class="col install">
+        <h4>Install App</h4>
+        <p>From App Store or Google Play</p>
+        <div class="row">
+          <img src="Pay/app.jpg" />
+          <img src="Pay/play.jpg" />
+        </div>
+        <p>Secured Payement Gateway</p>
+        <img src="Pay/pay.png" />
+      </div>
+
+      <div class="copy-right">
+        <p>Progrmmer IT Kevin Thulnith Hewa Uluwaduge - HTML CSS Template</p>
+      </div>
+    </footer>
+
+    <script src="1-script.js"></script>
+  </body>
+</html>
